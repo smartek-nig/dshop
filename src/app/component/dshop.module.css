@@ -1,0 +1,129 @@
+.nav{
+    background-color: rgb(1, 1, 26);
+    color: wheat;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 16px;
+    font-size: 32px;
+}
+
+
+.footer{
+    background-color: rgb(1, 1, 26);
+    color: wheat;
+    height: 300px;
+}
+
+
+.btn{
+    display: inline-block;
+    border-radius: 30px;
+    padding-inline: 40px;
+    padding-block: 25px;
+    text-transform: capitalize;
+    background-color: rgb(0, 0, 11);
+    color: #fff;
+}
+.btn:hover{
+    background-color: #008;
+   
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    margin: auto;
+}
+
+.form h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+}
+
+.form input{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: 5px solid #008;
+    border-radius: 20px;
+    padding-block: 10px;
+    margin-block: 20px;
+}
+
+.form ::placeholder{
+    font-size: 30px;
+    padding-inline-start: 5px;
+}
+.div h1{
+    font-size: 40px;
+    font-weight: 400;
+}
+.div p{
+    font-size: 26px;
+}
+.div aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 850px;
+    background-image: url('https://images.pexels.com/photos/23491456/pexels-photo-23491456/free-photo-of-product-shot-of-a-sports-shoe.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-position: center;
+}
+.content::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.content{
+    position: relative;
+    z-index: 10;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* button{
+    background-color: blue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-transform: capitalize;
+}     
+button:hover{
+    background-color: #080;
+} */

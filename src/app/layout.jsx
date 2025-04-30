@@ -1,10 +1,8 @@
-import { Inter } from "next/font/google";
+import { Roboto, Playwrite_HU } from "next/font/google";
 import "./globals.css";
 import Navbar from "./component/Navbar";
 
-
-const inter = Inter({
-  variable: "--font-geist-mono",
+const pwrite = Playwrite_HU({
   subsets: ["latin"],
 });
 
@@ -17,7 +15,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={inter.className}
+        className={pwrite.className}
       >
         <Navbar/>
         <div className="min-h-screen">

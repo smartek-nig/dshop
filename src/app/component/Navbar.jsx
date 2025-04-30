@@ -1,3 +1,5 @@
+
+
 function Navbar() {
     return (
       <nav className="navbar">
@@ -10,6 +12,7 @@ function Navbar() {
           <a href="/">Home</a>
           <a href="/cart">Cart (0)</a>
         </div>
+        <cart/>
       </nav>
     );
   }
